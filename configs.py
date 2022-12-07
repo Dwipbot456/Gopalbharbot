@@ -18,7 +18,7 @@ class Config(object):
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
-    START_MSG = os.getenv("START_MSG")
+    START_MSG = os.getenv("START_MSG", f'''Hey, {}\n\nI Can Search Movies And Web series What You Want!''')
     START_PHOTO = os.getenv("START_PHOTO")
     HOME_TEXT = os.getenv("HOME_TEXT")
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", None)
