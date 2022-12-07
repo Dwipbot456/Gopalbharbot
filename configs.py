@@ -32,4 +32,4 @@ class Config(object):
     MDISK_API = os.getenv("MDISK_API", "12334")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "1"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", "Pʟᴇᴀsᴇ Gɪᴠᴇ Mᴇ Rᴀᴛɪɴɢ Oɴ @Royaldwip\n\nJᴏɪɴ Mʏ Cʜᴀɴɴᴇʟ @WORLDOFMOVIES8\n\nOᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ @WOMREQUEST")
-    ABOUT_HELP_TEXT = os.getenv("HELP_TEXT", "Aᴘʜ Bᴀs Mᴜᴊᴇ Mᴏᴠɪᴇ Oʀ Sᴇʀɪᴇs Kᴀ Nᴀᴍ Sᴇɴᴅ Kᴀʀᴏ Mᴇ Aᴘᴋᴏ Usᴋᴀ Lɪɴᴋ Pʀᴏᴠɪᴅᴇ Kᴀʀᴀᴜɴɢᴀᴀ @WORLDOFMOVIES8 Yᴇʜᴀ Sᴇ..\n\nAɢᴀʀ Fʜɪʀ Bʜɪ Aᴘʜ Mᴜᴊᴇ Tʜɪᴋ Sᴇ Usᴇ Nʜɪ Kᴀʀ Pᴀ Rᴀʜᴇ Hᴏᴏ Tᴏ Yᴇ Vɪᴅᴇᴏ Dᴇᴋʜ Sᴀᴋᴛᴀ Hᴏᴏɴ..(https://youtu.be/1NDgrWTAhhg)❤\n\nFᴏʀ Mᴏʀᴇ Qᴜᴇʀʏ @Royaldwip\n\nOᴋᴀʏ Tʜᴀɴᴋs Tᴏ Usᴇ Mᴇ 🙋")
+    ABOUT_HELP_TEXT = os.getenv("HELP_TEXT")
